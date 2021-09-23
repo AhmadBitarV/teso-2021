@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/teso-2021/static/css/main.908e4abc.chunk.css",
+    "main.js": "/teso-2021/static/js/main.bb419940.chunk.js",
+    "main.js.map": "/teso-2021/static/js/main.bb419940.chunk.js.map",
+    "runtime-main.js": "/teso-2021/static/js/runtime-main.bd4f6198.js",
+    "runtime-main.js.map": "/teso-2021/static/js/runtime-main.bd4f6198.js.map",
+    "static/js/2.88ea7387.chunk.js": "/teso-2021/static/js/2.88ea7387.chunk.js",
+    "static/js/2.88ea7387.chunk.js.map": "/teso-2021/static/js/2.88ea7387.chunk.js.map",
+    "index.html": "/teso-2021/index.html",
+    "static/css/main.908e4abc.chunk.css.map": "/teso-2021/static/css/main.908e4abc.chunk.css.map",
+    "static/js/2.88ea7387.chunk.js.LICENSE.txt": "/teso-2021/static/js/2.88ea7387.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bd4f6198.js",
+    "static/js/2.88ea7387.chunk.js",
+    "static/css/main.908e4abc.chunk.css",
+    "static/js/main.bb419940.chunk.js"
+  ]
+}
