@@ -27,3 +27,11 @@ $bp-smallest: 21em;
     } //1800
   }
 }
+
+@mixin font-style($size, $weight, $height, $spacing, $transform) {
+  font-size: $size;
+  font-weight: $weight;
+  line-height: $height;
+  letter-spacing: $spacing;
+  text-transform: $transform;
+}

@@ -1,0 +1,64 @@
+@import '../../variables';
+
+.task {
+  width: 85%;
+  margin: 1rem auto;
+  padding: 1em 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  box-shadow: 0.5rem 0.5rem 1.5rem rgba(192, 192, 192, 0.5);
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: all 0.4s;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.535);
+  text-align: left;
+
+  &:hover {
+    transform: translateY(-0.5rem);
+    &::before {
+      content: 'X';
+      position: absolute;
+      top: 1rem;
+      right: 2rem;
+      color: var(--color-primary-pink);
+    }
+  }
+
+  h5 {
+    color: var(--color-primary-pink);
+    @include font-style(1.125rem, var(--font-bold), 1.5rem, 1.3px, uppercase);
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.51rem;
+    border-bottom: 1px solid currentColor;
+  }
+
+  &__content {
+    color: var(--color-blue) !important;
+    text-transform: none;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    color: var(--color-border);
+    @include font-style(1.2rem, var(--font-extraLight), 2.2rem, 2.3px, none);
+    @media only screen and (max-width: $bp-largest) {
+      @include font-style(1rem, var(--font-extraLight), 1.75rem, 2px, 0);
+    }
+  }
+
+  &__status {
+    align-self: flex-end;
+    color: currentColor !important;
+
+    @include font-style(1.2rem, var(--font-extraLight), 2.2rem, 2.3px, none);
+
+    @media only screen and (max-width: $bp-largest) {
+      @include font-style(1rem, var(--font-extraLight), 1.75rem, 2px, 0);
+    }
+
+    &__green {
+      color: #1b8222 !important;
+    }
+  }
+}

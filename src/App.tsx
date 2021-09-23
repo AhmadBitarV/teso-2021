@@ -1,12 +1,12 @@
-import ToDoList from "./containers/ToDoList";
-import "./App.scss";
+import ToDo from './containers/ToDo';
+import './App.scss';
 
 function App() {
-  return (
-    <div className="App">
-      <ToDoList />
-    </div>
-  );
+    return (
+        <div className="App">
+            <ToDo />
+        </div>
+    );
 }
 
 export default App;
