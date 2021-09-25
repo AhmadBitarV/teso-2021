@@ -14,7 +14,7 @@ const Task: React.FC<TaskProps> = (props) => {
   }`;
 
   return (
-    <div className={styles.task}>
+    <div role="contentinfo" className={styles.task}>
       <h5>{props.title}</h5>
       <span onClick={props.deleted}>X</span>
       <p className={styles.task__content}>{props.body}</p>

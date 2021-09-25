@@ -135,7 +135,7 @@ const ToDo = () => {
             checked={completed}
           />
           <p className={styles.errorMessage}>{error}</p>
-          <Button className={styles.button}>Add A ToDo</Button>
+          <Button className={styles.button} text="Add A ToDo" />
         </form>
         <div className={styles.taskList}>{taskList}</div>
       </main>
