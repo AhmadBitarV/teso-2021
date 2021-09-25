@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/teso-2021/static/css/main.e80f0d1c.chunk.css",
-    "main.js": "/teso-2021/static/js/main.76d40844.chunk.js",
-    "main.js.map": "/teso-2021/static/js/main.76d40844.chunk.js.map",
+    "main.css": "/teso-2021/static/css/main.c1f69a27.chunk.css",
+    "main.js": "/teso-2021/static/js/main.d23bcdd8.chunk.js",
+    "main.js.map": "/teso-2021/static/js/main.d23bcdd8.chunk.js.map",
     "runtime-main.js": "/teso-2021/static/js/runtime-main.bd4f6198.js",
     "runtime-main.js.map": "/teso-2021/static/js/runtime-main.bd4f6198.js.map",
-    "static/js/2.8b4c1550.chunk.js": "/teso-2021/static/js/2.8b4c1550.chunk.js",
-    "static/js/2.8b4c1550.chunk.js.map": "/teso-2021/static/js/2.8b4c1550.chunk.js.map",
+    "static/js/2.0437bd67.chunk.js": "/teso-2021/static/js/2.0437bd67.chunk.js",
+    "static/js/2.0437bd67.chunk.js.map": "/teso-2021/static/js/2.0437bd67.chunk.js.map",
     "index.html": "/teso-2021/index.html",
-    "static/css/main.e80f0d1c.chunk.css.map": "/teso-2021/static/css/main.e80f0d1c.chunk.css.map",
-    "static/js/2.8b4c1550.chunk.js.LICENSE.txt": "/teso-2021/static/js/2.8b4c1550.chunk.js.LICENSE.txt",
+    "static/css/main.c1f69a27.chunk.css.map": "/teso-2021/static/css/main.c1f69a27.chunk.css.map",
+    "static/js/2.0437bd67.chunk.js.LICENSE.txt": "/teso-2021/static/js/2.0437bd67.chunk.js.LICENSE.txt",
     "static/media/ToDo.module.scss": "/teso-2021/static/media/mountains.f408a498.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.bd4f6198.js",
-    "static/js/2.8b4c1550.chunk.js",
-    "static/css/main.e80f0d1c.chunk.css",
-    "static/js/main.76d40844.chunk.js"
+    "static/js/2.0437bd67.chunk.js",
+    "static/css/main.c1f69a27.chunk.css",
+    "static/js/main.d23bcdd8.chunk.js"
   ]
 }
