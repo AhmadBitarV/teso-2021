@@ -11,7 +11,6 @@
   width: 100%;
 
   &:nth-of-type(3) {
-    // checkbox styles
     flex-direction: row;
     align-items: center;
     gap: 1rem;
@@ -41,23 +40,23 @@
     }
 
     &::placeholder {
-      color: #373b44;
-      font-size: inherit;
+      color: #373b44a4;
+      @include font-style(0.8rem, var(--font-extraLight), 1.25rem, 2px, 0);
     }
 
     &::-webkit-input-placeholder {
-      color: #373b44;
-      font-size: inherit;
+      color: #373b44a4;
+      @include font-style(0.8rem, var(--font-extraLight), 1.25rem, 2px, 0);
     }
 
     &:-moz-placeholder {
-      color: #373b44;
-      font-size: inherit;
+      color: #373b44a4;
+      @include font-style(0.8rem, var(--font-extraLight), 1.25rem, 2px, 0);
     }
 
     &::-ms-input-placeholder {
-      color: #373b44;
-      font-size: inherit;
+      color: #373b44a4;
+      @include font-style(0.8rem, var(--font-extraLight), 1.25rem, 2px, 0);
     }
   }
 

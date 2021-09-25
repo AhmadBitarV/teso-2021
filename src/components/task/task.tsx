@@ -1,20 +1,24 @@
 import styles from './task.module.scss';
 
-const Task: React.FC<{
+interface TaskProps {
   completed: boolean;
   title: string;
   body: string;
-  clicked: () => void;
-}> = (props) => {
+  statusUpdated: () => void;
+  deleted?: () => void;
+}
+
+const Task: React.FC<TaskProps> = (props) => {
+  let inputStyle = `${styles.task__status} ${
+    props.completed === true ? styles.task__status__green : ''
+  }`;
+
   return (
-    <div className={styles.task} onClick={props.clicked}>
+    <div className={styles.task}>
       <h5>{props.title}</h5>
+      <span onClick={props.deleted}>X</span>
       <p className={styles.task__content}>{props.body}</p>
-      <p
-        className={`${styles.task__status} ${
-          props.completed === true ? styles.task__status__green : ''
-        }`}
-      >
+      <p className={inputStyle} onClick={props.statusUpdated}>
         {props.completed === true ? 'Completed' : 'In progress'}
       </p>
     </div>

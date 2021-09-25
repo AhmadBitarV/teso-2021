@@ -8,30 +8,46 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  gap: 0.5rem;
   box-shadow: 0.5rem 0.5rem 1.5rem rgba(192, 192, 192, 0.5);
   border-radius: 1rem;
-  cursor: pointer;
-  transition: all 0.4s;
+  transition: all 0.2s;
   position: relative;
   background-color: rgba(255, 255, 255, 0.535);
   text-align: left;
+  animation-name: slideRight;
+  animation-duration: 1s;
+
+  span {
+    opacity: 0;
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+    color: var(--color-primary-pink);
+    cursor: pointer;
+    transition: all 0.1s;
+
+    &:hover {
+      transform: scale(1.25);
+    }
+  }
 
   &:hover {
-    transform: translateY(-0.5rem);
-    &::before {
-      content: 'X';
-      position: absolute;
-      top: 1rem;
-      right: 2rem;
-      color: var(--color-primary-pink);
-    }
+    transform: scale(1.05);
+  }
+
+  &:hover span {
+    opacity: 1;
+  }
+
+  &:hover &__status {
+    border-bottom: 0.1px solid currentColor;
   }
 
   h5 {
     color: var(--color-primary-pink);
     @include font-style(1.125rem, var(--font-bold), 1.5rem, 1.3px, uppercase);
     padding-bottom: 0.5rem;
-    margin-bottom: 0.51rem;
     border-bottom: 1px solid currentColor;
   }
 
@@ -45,20 +61,44 @@
     @media only screen and (max-width: $bp-largest) {
       @include font-style(1rem, var(--font-extraLight), 1.75rem, 2px, 0);
     }
+
+    @media only screen and (max-width: $bp-small) {
+      @include font-style(1rem, var(--font-extraLight), 1.25rem, 2px, 0);
+    }
   }
 
   &__status {
     align-self: flex-end;
-    color: currentColor !important;
+    cursor: pointer;
+    transition: all 0.3s;
 
-    @include font-style(1.2rem, var(--font-extraLight), 2.2rem, 2.3px, none);
+    @include font-style(1rem, var(--font-extraLight), 2.2rem, 2.3px, none);
 
     @media only screen and (max-width: $bp-largest) {
-      @include font-style(1rem, var(--font-extraLight), 1.75rem, 2px, 0);
+      @include font-style(0.8rem, var(--font-extraLight), 1.75rem, 2px, 0);
+    }
+
+    @media only screen and (max-width: $bp-small) {
+      @include font-style(0.8rem, var(--font-extraLight), 1.25rem, 2px, 0);
     }
 
     &__green {
       color: #1b8222 !important;
+
+      &:hover {
+        color: #125516 !important;
+      }
     }
+  }
+}
+
+@keyframes slideRight {
+  from {
+    opacity: 0;
+    transform: translateX(-5rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
   }
 }

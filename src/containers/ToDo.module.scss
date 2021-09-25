@@ -13,11 +13,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
-  @media only screen and (max-width: $bp-small) {
-    justify-content: flex-start;
-    align-items: flex-start;
-  }
 }
 
 .content {
@@ -33,9 +28,6 @@
 
   @media only screen and (max-width: $bp-medium) {
     width: 95%;
-  }
-
-  @media only screen and (max-width: $bp-small) {
     grid-template-columns: 1fr;
     grid-template-rows: max-content 1fr 1fr;
   }
@@ -69,6 +61,7 @@
   overflow: scroll;
   overflow-x: hidden;
   padding-top: 5rem;
+
   @media only screen and (max-width: $bp-small) {
     grid-column: 1 / -1;
     padding-top: 0rem;
@@ -76,7 +69,7 @@
 }
 
 .errorMessage {
-  min-height: 1rem;
+  min-height: 2rem;
   color: var(--color-primary-pink);
 
   @include font-style(1.2rem, var(--font-extraLight), 2.2rem, 2.3px, none);

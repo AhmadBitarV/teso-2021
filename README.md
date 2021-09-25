@@ -1,46 +1,55 @@
-# Getting Started with Create React App
+<br>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img src="./src/assets/todo_app.png"/>
 
-## Available Scripts
+## Please Note
 
-In the project directory, you can run:
+As I completed only around 60% of the givin tasks during the test (due to time/speed issues and not lack of knowledge), I thought I'd come back to it later after work and finish it because I honestly hate unfinished work and so you could see what it would look like if I had a little bit more time on the clock.
 
-### `npm start`
+<ul>
+  <li>So If you would like to view the whole project up until this point, feel free to check out the last commit <i>"deploying v1.2"</i><strong> (around 2.5h - 3h spent on total </strong>). </li>
+  <li>If you would like to see the work done during the exam time <strong>1.5 hour</strong>, please use the comming <i>"deploying"</i></li>
+ </ul>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Patch v1.1 notes
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<ul>
+  <li>Add the delete functionality. </li>
+  <li>Add a status to the tasks </li>
+  <li>Updated CSS to a much better design (My own design by the way)</li>
+  <li>The UI is now mobile friendly</li>
+  <li>Fixed the error bug of error message always appearing on the UI</li>
+  <li>Got rid of all kinda spagetti code</li>
+  <li>The tasks now are stored on the user's browser</li>
+ </ul>
 
-### `npm test`
+# Patch v1.2 notes
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<ul>
+  <li>Created a toggle functionality to update the status of each task</li>
+  <li>Added an animation for the task component</li>
+  <li>Gave the error message a fixed height</li>
+  <li>Focusing the first input upon submitting empty fields</li>
+ </ul>
+ 
+ 
+ # Stack
 
-### `npm run build`
+This project was built with create-react-app
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+ <ul>
+  <li><strong>TypeScript</strong></li>
+  <li><strong>React.js - JSX</strong></li>
+  <li><strong>SCSS</strong></li>
+ </ul>
+ 
+ ## For quick access you can view the project on 
+ https://ahmadbitarv.github.io/teso-2021/
+ 
+ ## Check out some of other exams 
+  <strong>Teso 2020</strong> done with > 2h   https://github.com/AhmadBitarV/teso-2020 <br />
+ 
+ 
+ ## Links
+  <strong>My LinkedIn</strong> https://www.linkedin.com/in/ahmedbitar/<br />
+  <strong>My Protofolio</strong> https://ahmadbitarv.github.io/Galaxy/ (In development and still buggy as hell 😄 😅 )<br />
