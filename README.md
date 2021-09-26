@@ -116,7 +116,7 @@ As I completed only around 60% of the required tasks during the test (due to tim
 
 ## Check out some of other exams
 
-<strong>Teso 2020</strong> done with > 2h https://github.com/AhmadBitarV/teso-2020 <br />
+<strong>Teso 2020</strong> done with ~ 2h https://github.com/AhmadBitarV/teso-2020 <br />
 <br>
 
 ## Links
