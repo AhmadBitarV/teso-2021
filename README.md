@@ -32,7 +32,7 @@ Hope you doing great and thanks for checking out my work,
 As I completed only around 60% of the required tasks during the test (due to time/speed issues and not lack of knowledge), I thought I'd come back to it later after work and finish it because I honestly hate unfinished work and so you could see what it would look like if I had a little bit more time on the clock.
 
 <ul>
-  <li>So If you would like to view the whole project up until this point, feel free to check out the last commit <i>"deploying v1.2"</i><strong> (around 2.5h - 3h spent on total </strong>). </li>
+  <li>So If you would like to view the whole project up until this point, feel free to check out the last commit <i>"deploying v1.2"</i><strong> (around 4.5h - 5h spent on total </strong>). </li>
   <li>If you would like to see the work done during the exam time <strong>1.5 hour</strong>, please use the commit <i>"deploying"</i></li>
  </ul>
  <br>
